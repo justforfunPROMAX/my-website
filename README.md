@@ -31,7 +31,7 @@
             <button type="submit">Send</button>
         </form>
 
-        <p id="form-response" class="hidden">Thanks for reaching out! I'll get back to you soon.</p>
+   <p id="form-response" class="hidden">Thanks for reaching out! I'll get back to you soon.</p>
     </div>
 </body>
 </html>
