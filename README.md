@@ -14,7 +14,7 @@
         <h1>Welcome to My Business Hub</h1>
         <p>Connect with me on social media and send me a message!</p>
 
-        <div class="links">
+ <div class="links">
             <a href="https://instagram.com/JustdStore" target="_blank" class="link instagram">Instagram</a>
             <a href="https://facebook.com/JustdStore" target="_blank" class="link facebook">Facebook</a>
             <a href="https://twitter.com/JustdStore" target="_blank" class="link twitter">Twitter</a>
@@ -23,7 +23,7 @@
 " target="_blank" class="link linkedin">LinkedIn</a>
         </div>
 
-        <h2>Contact Me</h2>
+   <h2>Contact Me</h2>
         <form id="contact-form">
             <input type="text" id="name" placeholder="Your Name" required>
             <input type="email" id="email" placeholder="Your Email" required>
