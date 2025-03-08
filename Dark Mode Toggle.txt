@@ -1,0 +1,14 @@
+// Dark Mode Toggle
+document.getElementById('theme-toggle').addEventListener('click', function () {
+    document.body.classList.toggle('dark-mode');
+    this.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+});
+
+// Contact Form Submission
+document.getElementById('contact-form').addEventListener('submit', function (event) {
+    event.preventDefault(); // Prevent page reload
+    document.getElementById('form-response').classList.remove('hidden');
+    setTimeout(() => {
+        document.getElementById('form-response').classList.add('hidden');
+    }, 5000);
+});
